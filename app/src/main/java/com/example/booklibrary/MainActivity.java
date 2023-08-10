@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        getSupportActionBar().hide();
+
         myDB = new MyDatabaseHelper(MainActivity.this);
         book_id = new ArrayList<>();
         book_title = new ArrayList<>();

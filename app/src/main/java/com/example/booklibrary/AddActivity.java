@@ -18,6 +18,9 @@ AppCompatButton add_button;
         author_input = findViewById(R.id.author_input);
         pages_input = findViewById(R.id.pages_input);
         add_button = findViewById(R.id.add_button);
+
+        getSupportActionBar().hide();
+
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

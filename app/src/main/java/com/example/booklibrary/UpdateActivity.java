@@ -23,6 +23,8 @@ public class UpdateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update);
 
+        getSupportActionBar().hide();
+
         title_input = findViewById(R.id.title_input2);
         author_input = findViewById(R.id.author_input2);
         pages_input = findViewById(R.id.pages_input2);

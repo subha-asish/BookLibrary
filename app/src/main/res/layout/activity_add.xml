@@ -4,35 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddActivity">
+    tools:context=".AddActivity"
+    android:background="@drawable/booklibraryhome">
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:background="#8DD0C3"
         android:id="@+id/title_input"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="180dp"
         android:hint="Book Title"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:background="#8DD0C3"
         android:id="@+id/author_input"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:hint="Book Author"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/title_input"
         app:layout_constraintStart_toStartOf="@+id/title_input"
         app:layout_constraintTop_toBottomOf="@+id/title_input"/>
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:background="#8DD0C3"
         android:id="@+id/pages_input"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:hint="Number of pages"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/author_input"
         app:layout_constraintStart_toStartOf="@+id/author_input"
         app:layout_constraintTop_toBottomOf="@+id/author_input"/>
